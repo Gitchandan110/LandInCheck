@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestScript.File.LandIn_SignIn">
+      <class name="com.TestScript.File.LandIn_MerchantApplicationList">
         <methods>
           <include name="SignInLandInCheck"/>
-          <include name="LaunchLandInCheckApp"/>
           <include name="closeBrowser"/>
+          <include name="LaunchLandInCheckApp"/>
         </methods>
-      </class> <!-- com.TestScript.File.LandIn_SignIn -->
+      </class> <!-- com.TestScript.File.LandIn_MerchantApplicationList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

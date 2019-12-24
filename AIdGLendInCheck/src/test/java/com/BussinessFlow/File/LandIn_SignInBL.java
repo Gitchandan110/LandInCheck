@@ -41,7 +41,7 @@ public class LandIn_SignInBL extends LendIn_SignInPL {
 			if (BtnSignIn().isDisplayed()) {
 				Base.takeScreenShot("LoginScreen");
 				BtnSignIn().click();
-				Thread.sleep(2000);
+				Thread.sleep(10000);
 
 			}
 
