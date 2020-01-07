@@ -11,7 +11,7 @@ import com.CommonUtils.File.ExcelUtils;
 import com.CommonUtils.File.ExcelWrite;
 import com.PageObject.File.LendIn_SignInPL;
 
-public class LandIn_SignInBL extends LendIn_SignInPL {
+public class LendIn_SignInBL extends LendIn_SignInPL {
 
 	String InputDataSheet = "Login";
 	String SanitySheet = "TS_LandInCheck";

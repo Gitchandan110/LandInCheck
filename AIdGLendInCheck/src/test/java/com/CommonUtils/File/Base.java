@@ -24,7 +24,7 @@ public class Base {
 	public static WebDriver driver;
 	static String InputDataSheet = "Login";
 
-	public static WebDriver opendriver() {
+/*	public static WebDriver opendriver() {
 
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
@@ -33,7 +33,7 @@ public class Base {
 		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		return driver;
 
-	}
+	}*/
 	
 	
 	public static WebDriver chromeDriver() {

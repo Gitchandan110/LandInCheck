@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite
+    name="Suite"
+    verbose="1" >
+
+    <test name="LendIn_SignIn" >
+
+        <classes>
+
+            <class name="com.TestScript.File.LendIn_SignIn" />
+        </classes>
+    </test>
+
+    <test name="LendIn_MerchantApplicationList" >
+
+        <classes>
+
+            <class name="com.TestScript.File.LendIn_MerchantApplicationList" />
+        </classes>
+    </test>
+
+
+</suite>
